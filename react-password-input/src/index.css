@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: brown;
 }
 
 code {
@@ -20,4 +21,5 @@ code {
 
 .password-input:focus {
   outline: 4px solid slateblue;
+  /* background: red; */
 }
