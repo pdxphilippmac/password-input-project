@@ -4,16 +4,17 @@
 import React from "react";
 import styled from "styled-components";
 
-const Button = styled.button`
+const ButtonActive = styled.button`
   height: 60px;
   width: 60px;
-  background-color: white;
+
+  background-color: ${props => (props.active ? "#547fb3" : "white")};
   border-radius: 10px;
-  fill: #547fb3;
+  fill: ${props => (props.active ? "white" : "#547fb3")};
   padding: 14px;
   box-shadow: 0px 4px 6px black;
 `;
 
-export default function IconButton({ children }) {
-  return <Button>{children}</Button>;
+export default function IconButton({ active, children }) {
+  return <ButtonActive active={active}>{children}</ButtonActive>;
 }
