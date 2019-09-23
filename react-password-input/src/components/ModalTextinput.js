@@ -19,15 +19,13 @@ const TextInput = styled.input`
 
 export default function RestaurantInput(onChange, value) {
   const [input, setInput] = useState("");
-  let pStyle = {
-    color: "#547fb3"
-  };
+ 
   return (
     <div>
       {" "}
-      <p style={pStyle}>Name</p>
+     
       <TextInput
-        
+
         type="text"
         value={input}
         onChange={event => {
