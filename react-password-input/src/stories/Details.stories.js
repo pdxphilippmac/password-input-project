@@ -2,7 +2,7 @@ import React from "react";
 import Details from "../components/Details";
 import Walk from "../icons/Walk";
 
-import { Euro } from "../icons/Euro";
+import Euro from "../icons/Euro";
 
 export default {
   title: "Details"
