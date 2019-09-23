@@ -27,7 +27,7 @@ export default function RestaurantInput(onChange, value) {
       {" "}
       <p style={pStyle}>Name</p>
       <TextInput
-        className="password-input"
+        
         type="text"
         value={input}
         onChange={event => {
